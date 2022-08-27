@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');  
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #321e46;
+}
+input{
+    background-color: #48335e;
+    border-radius: 10px;
+    padding: 1rem;
+    color: white;
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+input:focus{
+    outline: none;
+}
+.card{
+    background-color: #48335e;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    padding: 3rem;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.avatar{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid #321e46;
+}
+.user-info{
+    color: #eee;
+    margin-left: 2rem;
+}
+.user-info h2{
+    margin-top: 0;
+}
+.user-info ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 300px;
+    list-style-type: none;
+}
+.repo{
+    color: white;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background-color: #321e46;
+    padding: .4rem;
+    font-size: .8rem;
+    border-radius: 10px;
+}
